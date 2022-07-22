@@ -1,0 +1,184 @@
+.breadcrumb{
+    margin-bottom: 15px;
+}
+
+.breadcrumb li{
+    display: inline;
+    margin-right: 3px;
+}
+
+.breadcrumb li a{
+    color: #288ad6;
+}
+
+.breadcrumb li span{
+    font-size: 20px;
+    color: #999;
+}
+
+.h3-name_product{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 18px;
+}
+
+.box_sanpham{
+    margin: 20px 0;
+}
+
+.box_left{
+    width: 60%;
+    float: left;
+}
+
+.img_sp{
+    width: 100%;
+    text-align: center;
+}
+
+.img_sp img{
+    width: 100%;
+}
+
+.box_left_1{
+    margin: 25px 0;
+    line-height: 1.8;
+}
+
+.policy__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.policy__list li{
+    width: 50%;
+
+}
+.policy__list li i{
+    color: #288ad6;
+    margin-right: 7px;
+}
+
+.box_left_2 img{
+    width: 100%;
+}
+
+.box_right{
+    width: 39%;
+    float: right;
+}
+
+.box_right_1 p{
+    margin-bottom: 10px;
+}
+
+.box_gia{
+    margin-bottom: 10px;
+}
+
+.gia_niem_yet{
+    font-size: 20px;
+    color: #d0021c;
+    font-weight: bold;
+}
+
+.gia_cu{
+    font-size: 15px;
+    color: #666;
+    text-decoration: line-through;
+}
+
+.giam_gia{
+    font-size: 16px;
+    color: #d0021c;
+}
+
+.box_right_2{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.box_right_2 img{
+    width: 100%;
+}
+
+.box_right_3{
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    line-height: 1.5;
+}
+
+.box_right_3_top{
+    background-color: #f6f6f6;
+    font-size: 13px;
+    padding: 7px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.box_right_3_bottom{
+    padding: 7px;
+    font-size: 14px;
+}
+
+.box_right_3_bottom ul li{
+    margin-bottom: 15px;
+}
+
+.xem_chi_tiet{
+    color: #288ad6;
+}
+
+.box_right_4{
+    margin-bottom: 10px;
+    padding: 7px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.con_hang{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #219653;
+}
+
+.het_hang{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #d0021c;
+}
+
+.box_dat_hang{
+    margin-bottom: 10px;
+}
+
+.box_dat_hang a{
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.box_mua_ngay{
+    background-color: #fb6e2e;
+    color: white;
+    padding: 15px 0;
+}
+
+.box_tra_gop{
+    background-color: #2f80ed;
+    color: white;
+    line-height: 1.5;
+    padding: 5px 0;
+}
+
+.box_cau_hinh{
+    margin: 20px 0;
+}
+
+.text_lead_cauhinh{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.822);
+    margin-bottom: 15px;
+}

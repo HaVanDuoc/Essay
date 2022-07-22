@@ -1,0 +1,63 @@
+.khoi-slide {
+    width: 100%;
+    height: 700px;
+    position: relative;
+ }
+ img {
+    width: 100%;
+ }
+ .cac-slide {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+ }
+ .slide {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    visibility: hidden;
+ }
+ .slide.active{
+    opacity: 1;
+    visibility: visible;
+ }
+ .nut-slide span{
+    color: white;
+    font-size: 60px;
+    opacity: 0.6;
+ }
+ span#btn-prev{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    z-index: 10;
+    cursor: pointer;
+ }
+ span#btn-next{
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    z-index: 10;
+    cursor: pointer;
+ }
+ .nut-slide ul {
+    position: absolute;
+    z-index: 10;
+    width: 100px;
+    bottom: 25%;
+    left: 50%;
+    margin-left: -50px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .nut-slide ul li {
+    width: 20px;
+    height: 20px;
+    background: white;
+    opacity: 0.6;
+    list-style: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.6s;
+ }

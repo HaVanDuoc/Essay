@@ -1,0 +1,453 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px auto;
+	padding:0px;
+}
+
+.header{
+	width:100%;
+	height:60px;
+	background-color:#000;
+	float:left;
+}
+
+/* Logo */
+.header-logo{
+	float:left;
+	width:30%;
+	text-align:center;
+	margin-top:6px;
+}
+
+/* Ô tìm kiếm */
+.header-search{
+	float:left;
+	width:40%;
+	text-align:center;
+	line-height: 60px;
+}
+
+.header-search input[type=text]{
+	width:500px;
+	height:30px;
+}
+
+.header-search input[type=submit]{
+	width:50px;
+	height:34px;
+}
+
+/* Phần bên phải header */
+.header-login{
+	float:left;
+	width:30%;
+}
+
+/* bỏ bullet cho ul */
+.header-login ul{
+	list-style:none;
+	text-align:center;
+	margin-left:90px;
+	margin-top:10px;
+}
+
+/* cho li lên 1 dòng */
+.header-login ul li{
+	float:left;
+	margin-left:30px;
+}
+
+.header-login ul li a{
+	text-decoration:none;
+	color:white;	
+}
+
+.header-login ul li a:hover{
+	color:blue;
+}
+
+.header-login ul li a img:hover{
+	transform:scale(1.1);
+}
+
+/* NAV */
+nav{
+	width:100%;
+	height:40px;
+	float:left;
+	background-color:#FFBA99;
+	text-align:center;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav a{
+	color:#000;
+	text-decoration:none;
+	line-height:40px;
+}
+
+nav a:hover{
+	color:blue;
+	transform:scale(1.1);
+}
+
+nav table tr td{
+	
+}
+
+/*-------end NAV----------*/
+
+
+/* CONTENT */
+
+.content{
+	margin:0px auto;
+	padding:0px;
+	width:1300px;
+	background-color:#FAFAFA;
+}
+
+/* Phần điện thoại được quan tâm */
+.section-dien-thoai table{
+	width:100%;
+}
+
+.section-table-title td#td1{
+	float:left;
+	font-size:22px;
+	font-family:Arial, Helvetica, sans-serif;
+	width:645px;
+	padding-top:30px;
+	padding-bottom:20px;
+}
+
+.section-table-title td#td2{
+	float:left;
+	width:648px;
+	padding-top:40px;
+	text-align:right;
+}
+
+.section-table-title td#td2 a{
+	text-decoration:none;
+	color:#000;
+}
+
+.section-table-title td#td2 a:hover{
+	color:#000;
+	font-style:italic;
+}
+	
+.section-table-content{
+	width:1300px;
+	background-color:white;
+}
+
+.section-table-content td div#div1{
+	width:390px;
+	height:300px;
+	float:left;
+	border: 1px solid #CCC;	
+}
+
+.section-table-content td div{
+	width:300px;
+	height:300px;
+	border:1px solid #CCC;
+	float:left;
+}
+
+.section-table-content td div#div2 img{
+	margin-top:25px;
+	margin-left:40px;
+}
+
+
+.section-table-content td div p{
+	margin-left:8px;
+	margin-top:10px;
+}
+
+.tensanpham{
+	padding-left:3px;
+	font-weight:bold;
+}
+
+.gia{
+	font-size:16px;
+	color:red;
+}
+
+aside#slide{
+	margin-left:100px;
+	width:89%;
+}
+
+.slide-pager{
+	position:relative;
+}
+
+.slide-control-prev{
+	position:absolute;
+	text-align:center;
+	width:25px;
+	height:60px;
+	line-height:60px;
+	color:#000;
+	cursor:pointer;
+	right:34px;
+	top:104px;
+	z-index:1000;
+}
+
+.slide-control-next{
+	position:absolute;
+	text-align:center;
+	width:25px;
+	height:60px;
+	line-height:60px;
+	color:#000;
+	cursor:pointer;
+	right:34px;
+	top:104px;
+	z-index:1000;
+}
+
+.slide-container{
+	width:92%;
+	overflow:hidden;
+	position:relative;	
+}
+
+.slide-stage{
+	position:absolute;
+}
+
+.slide-image{
+	float:left;
+	width:200px;
+	text-align:center;
+}
+
+
+
+/* Phần Top thương hiệu điện thoại */
+
+.section-thuong-hieu{
+	width:100%;
+	background-color:white;
+	margin-top:60px;
+	height:170px;
+	text-align:center;
+	box-shadow:0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section-thuong-hieu h3{
+	font-size:24px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:15px;
+}
+
+.ul-logo-thuong-hieu{
+	list-style:none; /* bỏ bullet */
+}
+
+.ul-logo-thuong-hieu li{
+	float:left;
+	margin-top:10px;
+	margin-right:30px;
+	margin-left:30px;
+}
+
+.ul-logo-thuong-hieu li:hover{
+	transform:scale(1.1);
+}
+
+/* Phần Laptop được quan tâm */
+
+.section-laptop table{
+	width:1300px;
+}
+
+
+
+
+/* Footer */
+
+/* Footer-on */
+
+.footer-one{
+	width:1300px;
+	height:150px;
+}
+
+.footer-one p{
+	font-size:18px;
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+
+.footer-one ul{
+	list-style:none;
+}
+
+.footer-one li{
+	float:left;
+	border:1px solid black;
+	border-radius:5px;
+	text-decoration:none;
+	padding:5px;
+	margin:2px;
+}
+
+.footer-one a{
+	text-decoration:none;
+}
+
+.footer-one li:hover{
+	background-color:#53A9FF;
+}
+
+.footer-one li a:hover{
+	color:white;
+}
+
+/* Footer-two */
+.footer-two{
+	clear:both;
+	width:1519px;
+	height:250px;
+	background-color:white;
+}
+
+.footer-two-article{
+	width:1300px;
+}
+
+.footer-two-left{
+	float:left;
+	width:30%;
+}
+
+.footer-two-left p{
+	font-size:18px;
+	margin-top:20px;
+}
+
+.footer-two-left a{
+	text-decoration:none;
+	color:black;
+}
+
+.footer-two-left a:hover{
+	color:#0080FF;
+}
+
+
+.footer-two-mid{
+	float:left;
+	width:30%;
+}
+
+
+.footer-two-mid p{
+	font-size:18px;
+	margin-top:20px;
+}
+
+.footer-two-mid a{
+	text-decoration:none;
+	color:black;
+}
+
+.footer-two-mid a:hover{
+	color:#0080FF;
+}
+
+.footer-two-right{
+	float:left;
+}
+
+.footer-two-right p{
+	font-size:18px;
+	margin-top:20px;
+}
+
+.footer-two-right a{
+	text-decoration:none;
+	color:black;
+	padding-right:80px;
+}
+
+.footer-two-right a:hover{
+	color:#0080FF;
+}
+
+/* Footer-three */
+.footer-three{
+	clear:both;
+	width:100%;
+	height:50px;
+	text-align:center;
+	background-color:#EEE;
+	padding-top:17px;
+}
+
+.footer-three a{
+	font-weight:bold;
+	color:black;
+	text-decoration:none;
+}
+
+.footer-three a:hover{
+	color:#00CE00;
+}
+
+/*-----------------------*/
+.time{
+	margin-left: 20px;
+}
+	
+/* ---------Calender------------*/
+.calendar{
+ border-radius:4px;
+ margin-top:20px;
+}
+.calendar table{
+ width:100%;
+}
+.calendar table tr td.monthyear{
+ background-color:#F60;
+ text-align:center;
+ font-size:16px;
+ font-weight:bold;
+ color:#FFF;
+ border:1px solid #666;
+}
+.calendar table tr.weektitle td{
+ text-align:center;
+ font-weight:bold;
+ border:1px solid #666;
+ background-color:#CCF;
+}
+.calendar table tr td.weekday{
+ text-align:center;
+ border:0.5px solid #CACACA;
+}
+
+/* ---------end Calender ----------*/	
+	
+/* ---------- footer Nav -------*/
+
+
+/* -------end footer-NAV-----*/
+
+
+	
+	
+	
+	
+	

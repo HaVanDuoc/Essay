@@ -1,0 +1,77 @@
+.box_dangnhap{
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #e0e0e0;
+    padding: 30px 0;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.box_dangnhap img{
+    width: 100%;
+}
+
+.lead_text{
+    font-size: 18px;
+    margin: 30px 0;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+.frmDangnhap div{
+    margin: 15px 0;
+}
+
+.frmDangnhap div i{
+    color: #078ff7be;
+    font-size: 20px;
+    position: relative;
+    left: 40px;
+    top: 2px;
+}
+
+.frmDangnhap div input{
+    border: 1px solid #e0e0e0;
+    border-radius: 25px;
+    padding: 15px 50px;
+    width: 40%;
+    align-items: center;
+    outline: none;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+.frmDangnhap div input::placeholder{
+    font-size: 14px;
+}
+
+.btnDangnhap{
+    border: none;
+    border-radius: 25px;
+    padding: 15px 0;
+    width: 60%;
+    background-color: #288ad6;
+    box-shadow: 0 2px 6px 0 #9ed4ec;
+    margin-bottom: 20px;
+    position: relative;
+    left: 10px;
+    cursor: pointer;
+}
+
+.btnDangnhap span{
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+}
+
+.notify_error{
+    color: red;
+    font-size: 13px;
+}
+
+.support a{
+    color: #333;
+}
+
+.support a:hover{
+    color: #288ad6;
+}

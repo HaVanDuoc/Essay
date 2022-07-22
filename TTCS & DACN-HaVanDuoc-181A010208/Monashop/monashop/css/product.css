@@ -1,0 +1,171 @@
+.box-sort{
+    margin: 15px 0;
+}
+
+.box-sort ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.box-sort ul li input{
+    margin-right: 5px;
+}
+
+.banner{
+    margin-bottom: 15px;
+}
+
+.banner_left{
+    width: 66%;
+    float: left;
+}
+
+.banner_left img{
+    width: 100%;
+}
+
+.banner_right{
+    width: 33%;
+    float: right;
+}
+
+/* filter */
+
+.box_filter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+    /* position: fixed; */
+}
+
+.box_filter div{
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 10px 18px;
+    margin: 0 8px 10px 0;
+    cursor: pointer;
+}
+
+/* box_quicklink */
+
+.box_quicklink{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.box_quicklink a{
+    border: 1px solid #e0e0e0;
+    border-radius: 25px;
+    padding: 7px 15px;
+    margin: 0 7px 7px 0;
+    color: #333;
+}
+
+.box_quicklink a:hover{
+    border-color: #2f80ed;
+    color: #2f80ed;
+}
+
+.box_quicklink a img{
+    height: 20px;
+}
+
+/* Web PHụ kiện */
+
+.pk_filter{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.pk_filter ul{
+    border-radius: 6px;
+}
+
+.pk_filter ul li{
+    height: fit-content;
+}
+
+.pk_filter .ul1{
+    border: 1px solid #f4c208;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+
+.pk_trademark{
+    margin-bottom: 5px;
+}
+
+.pk_trademark h3{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.pk_quicklink{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.pk_quicklink a{
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 7px 15px;
+    margin: 0 7px 7px 0;
+}
+
+
+.pk_quicklink a img{
+    height: 20px;
+}
+
+/* Web PC-Máy in */
+
+.pc_filter{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    margin-bottom: 30px;
+}
+
+.pc_filter a{
+    padding: 10px 30px;
+    text-align: center;
+    color: #333;
+}
+
+.pc_filter a img{
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    width: 60px;
+}
+
+.pc_filter a:nth-child(n):hover{
+    border-color: #2f80ed;
+    color: #2f80ed;
+}
+
+.view_more{
+    margin: 25px 0 80px;
+    text-align: center;
+}
+
+.view_more a{
+    width: 30%;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 10px 100px;
+    color: #333;
+}
+
+.view_more a:hover{
+    background-color: #2f80ed;
+    color: white;
+}
